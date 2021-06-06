@@ -22,7 +22,7 @@ Please create the database in mysql and change following in .env
     DB_USERNAME=root
     DB_PASSWORD=
 
-##Run Migrations
+### Run Migrations
 
 php artisan migrate
 
