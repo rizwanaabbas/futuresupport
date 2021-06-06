@@ -36,7 +36,7 @@ Currently I have used MailTrap for testing you can also use the by creating free
 ## Run for the Serach indexing on command prompt
 php artisan scout:import "App\Chats"
 ## Scchedule Cron for Status Change
-* * * * * cd /path-to-your-project && php artisan schedule:run >> /dev/null 2>&1
+"* * * * * cd /path-to-your-project && php artisan schedule:run >> /dev/null 2>&1"
 
 
 ## Tools and Extensions Used
