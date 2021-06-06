@@ -59,7 +59,16 @@ Currently I have used MailTrap for testing you can also use the by creating free
     
     https://github.com/rizwanaabbas/futuresupport/blob/76f5678a4cc2bfdc85b14df52a69e0091f7a8c82/Future.postman_collection.json
     
-
+### Following area the end points
+    http://localhost:8000/api/register
+    http://localhost:8000/api/login
+    http://localhost:8000/api/chats [Resource Type with get, post, put]
+    http://localhost:8000/api/chats/1
+    http://localhost:8000/api/chats/change-chat-status
+    http://localhost:8000/api/chats/search/   [You can search messages by username, title and details]
+    
+    Detailed params for each request are already in postman collection mentioned above
+    
 ## Tools and Extensions Used
 
 * Laravel 
