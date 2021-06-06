@@ -6,15 +6,15 @@ This is a test API project and specifically created as an assignment for a job. 
 ## Sanctum 
 The token are being created and validated by Sanctum
 
-##Create Database
+###Create Database
 
 Please create the database in mysql and change following in .env 
 
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=future
-DB_USERNAME=root
-DB_PASSWORD=
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=future
+    DB_USERNAME=root
+    DB_PASSWORD=
 
 ##Run Migrations
 
