@@ -24,9 +24,9 @@ Please create the database in mysql and change following in .env
 
 ### Run Migrations
 
-php artisan migrate
+    php artisan migrate
 
-##Configure SMTP for Emails
+### Configure SMTP for Emails
 Currently I have used MailTrap for testing you can also use the by creating free account 
 
 [Mail Trap Free Account ](https://mailtrap.io/public-api)
@@ -39,12 +39,17 @@ Currently I have used MailTrap for testing you can also use the by creating free
 	MAIL_PASSWORD=d3566cc596d1db
 	MAIL_ENCRYPTION=tls
 
-## Run for the Serach indexing on command prompt
-php artisan scout:import "App\Chats"
-## Scchedule Cron for Status Change
-"* * * * * cd /path-to-your-project && php artisan schedule:run >> /dev/null 2>&1"
+### Run for the Serach indexing on command prompt
 
+    php artisan scout:import "App\Chats"
 
+### Scchedule Cron for Status Change
+    
+    "* * * * * cd /path-to-your-project && php artisan schedule:run >> /dev/null 2>&1"
+
+### Run the following command to start server
+    php artisan serve
+    
 ## Tools and Extensions Used
 
 * Laravel 
