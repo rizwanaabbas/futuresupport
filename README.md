@@ -6,6 +6,7 @@ This is a test API project and specifically created as an assignment for a job. 
 ## Sanctum 
 The token are being created and validated by Sanctum
 
+## Installation  
 ###Create Database
 
 Please create the database in mysql and change following in .env 
