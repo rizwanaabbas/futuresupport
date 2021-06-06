@@ -48,8 +48,18 @@ Currently I have used MailTrap for testing you can also use the by creating free
     "* * * * * cd /path-to-your-project && php artisan schedule:run >> /dev/null 2>&1"
 
 ### Run the following command to start server
+    
     php artisan serve
     
+   Will create and run server instance can be accessed on following url
+    
+    http://localhost:8000
+    
+### Please download the postman project to test the API
+    
+    https://github.com/rizwanaabbas/futuresupport/blob/76f5678a4cc2bfdc85b14df52a69e0091f7a8c82/Future.postman_collection.json
+    
+
 ## Tools and Extensions Used
 
 * Laravel 
