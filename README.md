@@ -7,7 +7,12 @@ This is a test API project and specifically created as an assignment for a job. 
 The token are being created and validated by Sanctum
 
 ## Installation  
-###Create Database
+
+After cloning the repo please goto project directory and run 
+    
+    composer update
+    
+### Create Database
 
 Please create the database in mysql and change following in .env 
 
